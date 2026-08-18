@@ -3,36 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siteo - Web Design for Small Businesses</title>
+    <title>Siteo | Your Digital Growth Partner</title>
+    <!-- Google Fonts for better quality -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Siteo</h1>
-        <p>Your Partner in Digital Growth</p>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We build beautiful, responsive, and effective websites for small businesses to help them succeed online.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Custom Website Design</li>
-                <li>E-commerce Solutions</li>
-                <li>SEO Optimization</li>
-                <li>Maintenance & Support</li>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">Siteo.</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="btn btn-primary">Let's Talk</a></li>
             </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h2>Empowering Small Businesses Online.</h2>
+            <p>We craft stunning, high-performance websites tailored to your unique brand, ensuring you stand out in the digital landscape.</p>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2>Who We Are</h2>
+                <div class="divider"></div>
+            </div>
+            <p class="text-center">At Siteo, we believe every small business deserves a premium digital presence. Founded by a passionate duo, we specialize in building responsive, modern, and effective websites that turn visitors into loyal customers.</p>
         </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Ready to start your project? Let's talk!</p>
-            <a href="mailto:contact@siteo.com" class="button">Get in Touch</a>
+
+        <section id="services" class="section">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3>Custom Web Design</h3>
+                    <p>Bespoke websites designed to reflect your brand identity and captivate your audience.</p>
+                </div>
+                <div class="card">
+                    <h3>E-commerce Solutions</h3>
+                    <p>Robust online stores engineered to drive sales and provide seamless shopping experiences.</p>
+                </div>
+                <div class="card">
+                    <h3>SEO Optimization</h3>
+                    <p>Data-driven strategies to elevate your search engine rankings and increase organic traffic.</p>
+                </div>
+                <div class="card">
+                    <h3>Maintenance & Support</h3>
+                    <p>Reliable ongoing support to keep your website secure, fast, and up-to-date.</p>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2026 Siteo. All rights reserved.</p>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-text">
+                <h2>Ready to start your project?</h2>
+                <p>Let's collaborate to build something amazing.</p>
+            </div>
+            <a href="mailto:contact@siteo.com" class="btn btn-primary btn-large">Get in Touch</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Siteo. Built for small businesses. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
